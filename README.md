@@ -34,3 +34,26 @@ CodeEvolution 是一套**多 Agent 协同代码重构解决方案**。
 ---
 
 ## 📁 项目目录结构（专业 GitHub 标准）
+CodeEvolution/
+├── python_core/          # 核心AI多Agent源码（架构/重构/审查）
+├── python_api/           # FastAPI 后端接口服务
+├── app/                  # Next.js 前端可视化仪表盘
+├── .env.example          # 环境变量配置模板
+├── .gitignore            # 项目规范忽略文件
+├── package.json          # 前端依赖与启动脚本
+├── tsconfig.json         # TypeScript 标准配置
+└── README.md             # 项目专业文档
+
+
+---
+
+## 🚀 快速启动教程
+
+### 1. 环境准备
+- Python 3.10+
+- Node.js 18+
+- Gemini / OpenAI 兼容 API 密钥
+
+### 2. 安装 Python 依赖
+```bash
+pip install fastapi uvicorn openai
